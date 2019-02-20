@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>779</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(51, 51, 51);
+color: rgb(231, 231, 231);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="1" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(231, 231, 231);</string>
+        </property>
+        <property name="text">
+         <string>Расписание магистратуры</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="listWidget_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(51, 51, 51);
+background-color: rgb(231, 231, 231);</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="10" column="0" colspan="3">
+     <widget class="QPushButton" name="Generation">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Сгенерировать файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QPushButton" name="ShowAudiences">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Показать аудитории</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" rowspan="2">
+     <widget class="QPushButton" name="DeleteFile_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Удалить файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(231, 231, 231);</string>
+        </property>
+        <property name="text">
+         <string>Расписание бакалавриата</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="listWidget">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>192</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(51, 51, 51);
+background-color: rgb(231, 231, 231);</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="2" rowspan="2">
+     <widget class="QPushButton" name="Clear_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Очистить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QPushButton" name="AddFile_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Добавить файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="8">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(231, 231, 231);</string>
+        </property>
+        <property name="text">
+         <string>Аудитории</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="Audiences">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(51, 51, 51);
+background-color: rgb(231, 231, 231);
+border-color: rgb(86, 86, 86);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SelectAll">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(231, 231, 231);</string>
+        </property>
+        <property name="text">
+         <string>Выбрать все</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2"/>
+      </item>
+     </layout>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="DeleteFile_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Удалить файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QPushButton" name="Clear_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Очистить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" colspan="2">
+     <widget class="QPushButton" name="AddFile_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="text">
+       <string>Добавить файл</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>779</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action">
+   <property name="text">
+    <string>Справка</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Выйти из программы</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
